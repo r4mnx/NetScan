@@ -191,5 +191,5 @@ if [ $parameter_counter -eq 1 ]; then
 elif [ $parameter_counter -eq 2 ]; then
 	ipcidr $nameHost
 else
-	echo -e "\n${Red}[+] Comando o datos incorrectos: ${GrayL}r4mnx-system -h para mostrar panel de ayuda.${EndC}"
+	echo -e "\n${Red}[+] Comando o datos incorrectos: ${GrayL}NetScan.sh -h para mostrar panel de ayuda.${EndC}"
 fi
