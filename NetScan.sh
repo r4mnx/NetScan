@@ -23,7 +23,7 @@ function ctrl_c(){
 trap ctrl_c INT
 
 function helpPanel(){
-	echo -e "\n${Yellow}[+]${Blue} Panel de uso de la aplicación: ${EndC}"
+	echo -e "\n${Yellow}[+]${Blue} Panel de uso de la aplicación: ${EndC}\n"
 	echo -e "\t${Purple}p) ${GrayL}Realiza un escaneo de puertos de la IP proporcionada.${EndC}"
 	echo -e "\t${Purple}o) ${GrayL}Escanea hosts \"ACTIVOS\" desde el NetworkID hasta el Broadcast de la IP/CIDR.${EndC}"
   echo -e "\t${Purple}h) ${GrayL}Muestra el panel de ayuda.${EndC}\n"
