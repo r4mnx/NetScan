@@ -12,7 +12,12 @@ White='\033[0;37m'        # White
 Gray='\033[1;30m'        # Gray Light
 GrayL='\e[37m'             # Gray
 EndC="\033[0m\e[0m"       # End colour
-
+# Banner
+echo
+echo -e "${Blue}         ┏┓╻┏━╸╺┳╸┏━┓┏━╸┏━┓┏┓╻   ${EndC}"
+echo -e "${Blue}         ┃┗┫┣╸  ┃ ┗━┓┃  ┣━┫┃┗┫   ${EndC}"
+echo -e "${Blue}         ╹ ╹┗━╸ ╹ ┗━┛┗━╸╹ ╹╹ ╹   ${EndC}"
+echo
 # Indicadores
 declare -i parameter_counter=0
 
